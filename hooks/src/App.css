@@ -1,0 +1,67 @@
+body {
+  margin:0;
+}
+
+#main {
+  display:flex;
+  min-height: 100vh;
+}
+
+#main.light {
+  background-color: #ffffff;
+}
+#main.dark {
+  background-color: #d3d3d3;
+}
+
+.info {
+  background-color: #ffffff;
+  width: 50%;
+  margin: 3%;
+  padding: 5%;
+  border : 1px solid rgba(20,20,20,.3);
+}
+.info .userinfo {
+  margin-top: 80px;
+  min-height: 150px;
+}
+.info button {
+  font-size: 1.2rem;
+  background-color: rgb(231, 231, 247);
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.center {
+  text-align: center;
+}
+.setting {
+  background-color: #ffffff;
+  width: 50%;
+  margin: 3%;
+  padding: 5%;
+  border : 1px solid rgba(20,20,20,.3);
+}
+.setting label {
+  display:inline-block;
+  width: 40px;
+}
+input,select, option {
+  padding: 8px;
+}
+.setting div {
+  margin: 30px 0;
+}
+.setting input {
+  width: 100px;
+}
+.setting input[type=number] {
+  width: 50px;
+}
+.setting button[type=button] {
+  margin: 4px;
+}
+.setting button[type=submit] {
+  padding: 12px 20px;
+}
